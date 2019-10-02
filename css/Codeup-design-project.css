@@ -10,9 +10,6 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 48px;
 }
-h3 {
-    padding-top: 8px;
-}
 .my-col2 {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -143,4 +140,67 @@ img {
 .my-row3 {
     font-family: 'Abel', sans-serif;
     margin-bottom: 50px;
+}
+hr {
+    display: none;
+}
+@media (min-width: 576px) {
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .my-row-sm h2 {
+        font-size: 20px;
+        height: 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .red-circle-sm {
+        border: 5px solid white;
+        background-color: #e6563b;
+        border-radius: 100%;
+        height: 100px;
+        width: 75px;
+        color: white;
+    }
+    .orange-circle-sm {
+        border: 5px solid white;
+        background-color: #eb9d3a;
+        border-radius: 100%;
+        height: 100px;
+        width: 75px;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .green-circle-sm {
+        border: 5px solid white;
+        background-color: #7cb06c;
+        border-radius: 100%;
+        height: 100px;
+        width: 75px;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .blue-circle-sm {
+        border: 5px solid white;
+        background-color: #00aba9;
+        border-radius: 100%;
+        height: 100px;
+        width: 120px;
+        color: white;
+        margin-left: 5px;
+    }
+    hr {
+        width: 65%;
+        margin: 15px auto 30px auto;
+        display: flex;
+    }
+    .empty {
+        display: none;
+    }
 }
