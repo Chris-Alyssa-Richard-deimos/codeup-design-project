@@ -1,7 +1,37 @@
+* {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
+    background-color: transparent;
 }
-
+h3 {
+    padding-top: 8px;
+}
 .my-col2 {
     padding-top: 2em;
+}
+.red-circle {
+    border: 5px solid white;
+    background-color: #e6563b;
+    border-radius: 100%;
+    height: 105px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.orange-circle {
+    border: 5px solid white;
+    background-color: #eb9d3a;
+    border-radius: 100%;
+    height: 105px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
