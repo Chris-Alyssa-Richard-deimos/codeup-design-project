@@ -16,12 +16,10 @@ h1 {
     width: 100%;
     background-color: white;
     height: 50px;
-    margin-top: 50px;
+    margin: 50px 0 0 0;
     position: relative;
 }
-.nav-sm {
-    margin-top: -4.5em;
-}
+
 .logo {
     border: none;
     height: 105px;
@@ -32,18 +30,10 @@ h1 {
 
 .logo-list {
     font-family: 'Abel', sans-serif;
-    background-color: white;
 }
 
 .logo-list li {
     background-color: transparent;
-}
-
-.list1 {
-/*margin-right: 1px;*/
-}
-.list2 {
-
 }
 
 nav {
@@ -203,11 +193,14 @@ hr {
         display:none;
     }
     .nav-sm {
-
+        margin-top: -4.5em;
     }
     .sm-circle {
         font-size: 1.25em;
         font-family: 'Anton', sans-serif;
+    }
+    .logo-list {
+        background-color: white;
     }
     .red-circle-sm {
         border: 5px solid white;
@@ -323,6 +316,22 @@ hr {
     .man {
         height: 133px;
         width: 195px;
+    }
+    .services {
+    }
+
+    .work-1 {
+        margin-left: 40px;
+        margin-right: 60px;
+    }
+
+    .blog {
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
+    .contact {
+
     }
 }
 @media (min-width: 768px) {
@@ -484,6 +493,21 @@ hr {
     .ipsum {
         font-family: 'Abel', sans-serif;
         margin-left: 20px;
+    }
+    .services {
+        margin: -4.5em 0 0 0;
+    }
+
+    .work-1 {
+        margin: -4.5em 0 0 0;
+    }
+
+    .blog {
+        margin: -4.5em 0 0 0;
+    }
+
+    .contact {
+        margin: -4.5em 0 0 0;
     }
 }
 @media (min-width: 993px) {
