@@ -2,6 +2,7 @@
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    line-height: 1.1em;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
@@ -389,20 +390,24 @@ hr {
         font-size: .5em;
     }
     .last-txt {
-        margin-left: 38em;
+        margin-left: 52em;
     }
     .man {
-        height: 143px;
-        width: 210px;
+        height: 190px;
+        width: 281px;
     }
     .the-last{
         font-family: 'Anton', sans-serif;
-        font-size: 1em;
+        font-size: 20px;
     }
     .the-last-img {
-        height: 3em;
-        width: 3em;
+        height: 3.5em;
+        width: 3.5em;
         border: none;
         margin-left: 1.5em;
+        margin-right: .7em;
+    }
+    .last-row {
+        margin-bottom: 1em;
     }
 }
