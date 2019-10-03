@@ -314,7 +314,7 @@ hr {
     }
     hr {
         width: 95%;
-        margin: 15px auto 30px auto;
+        margin: 15px auto 60px auto;
         display: flex;
     }
     .empty {
@@ -387,10 +387,11 @@ hr {
         padding: 1em;
     }
     .work {
-        font-size: .5em;
+        font-size: 1em;
+        margin-bottom: 1em;
     }
     .last-txt {
-        margin-left: 52em;
+        margin-left: auto;
     }
     .man {
         height: 190px;
@@ -404,10 +405,36 @@ hr {
         height: 3.5em;
         width: 3.5em;
         border: none;
-        margin-left: 1.5em;
+        margin-left: 1em;
         margin-right: .7em;
     }
     .last-row {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
+    }
+    .tweet {
+        color: #1DA1f3;
+        font-size: 1.5em;
+        margin-right: -2em;
+    }
+    .tweet-txt {
+        font-family: 'Abel', sans-serif;
+        margin-left: 0;
+        height: 24px;
+    }
+    .tweet-row {
+        margin-top: 2em;
+        padding-left: 20px;
+    }
+    .ipsum {
+        font-family: 'Abel', sans-serif;
+        margin-left: 20px;
+    }
+}
+@media (min-width: 993px) {
+    body {
+        background-color: #f0f0f0;
+    }
+    .container-fluid {
+        width: 80%;
     }
 }
