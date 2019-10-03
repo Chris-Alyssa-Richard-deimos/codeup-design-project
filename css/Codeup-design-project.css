@@ -388,8 +388,21 @@ hr {
     .work {
         font-size: .5em;
     }
+    .last-txt {
+        margin-left: 38em;
+    }
     .man {
         height: 143px;
         width: 210px;
+    }
+    .the-last{
+        font-family: 'Anton', sans-serif;
+        font-size: 1em;
+    }
+    .the-last-img {
+        height: 3em;
+        width: 3em;
+        border: none;
+        margin-left: 1.5em;
     }
 }
