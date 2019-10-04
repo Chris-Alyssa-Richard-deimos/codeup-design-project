@@ -18,6 +18,7 @@ h1 {
     height: 50px;
     margin: 50px 0 0 0;
     position: relative;
+    z-index: 1;
 }
 
 .logo {
@@ -402,7 +403,7 @@ hr {
         justify-content: center;
         align-items: center;
         font-family: 'Anton', sans-serif;
-        margin-left: 5px;
+        margin-left: 25px;
         font-size: .5em;
         padding: 1em;
 
@@ -445,7 +446,6 @@ hr {
         justify-content: center;
         align-items: center;
         font-family: 'Anton', sans-serif;
-        /*margin-left: 5px;*/
         font-size: .5em;
         padding: 1em;
     }
@@ -489,11 +489,6 @@ hr {
         margin-left: 20px;
     }
 
-    .name {
-        margin: -6em 1.5 0 0;
-        z-index: 1;
-    }
-
     .services {
         margin: -6em 1.5em 0 0;
     }
@@ -512,14 +507,17 @@ hr {
     .logo img {
         margin-top: -1em;
     }
-    .logo-container {
-        z-index: 0;
+    .logo {
+        position: relative;
+        top: -30px;
+        left: 10px;
     }
-    .title {
-        font-family: 'Abel', sans-serif;
-        font-size: 32px;
-        margin-left: 4em;
-
+    .codeup {
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        top: 10px;
+        background-color: transparent;
     }
 
 }
