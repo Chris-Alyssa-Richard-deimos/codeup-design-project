@@ -178,6 +178,7 @@ hr {
     font-size: 48px;
 }
 @media (min-width: 576px) {
+
     h1 {
         font-size: 38px;
     }
