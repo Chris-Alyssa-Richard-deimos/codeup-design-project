@@ -172,6 +172,10 @@ img {
 hr {
     display: none;
 }
+.title {
+    font-family: 'Abel', sans-serif;
+    font-size: 48px;
+}
 @media (min-width: 576px) {
     h1 {
         font-size: 38px;
@@ -303,9 +307,6 @@ hr {
         font-size: .6em;
         padding: 1em;
     }
-    .services {
-    }
-
     .work-1 {
         margin-left: 40px;
         margin-right: 60px;
@@ -315,9 +316,9 @@ hr {
         margin-left: 80px;
         margin-right: 40px;
     }
-
-    .contact {
-
+    .title {
+        font-family: 'Abel', sans-serif;
+        font-size: 32px;
     }
 }
 @media (min-width: 768px) {
@@ -330,6 +331,9 @@ hr {
     .sm-circle {
         font-size: 1em;
         font-family: 'Anton', sans-serif;
+    }
+    .my-row-md {
+        margin-top: 4em;
     }
     .my-row-sm {
         display: flex;
@@ -484,6 +488,12 @@ hr {
         font-family: 'Abel', sans-serif;
         margin-left: 20px;
     }
+
+    .name {
+        margin: -6em 1.5 0 0;
+        z-index: 1;
+    }
+
     .services {
         margin: -6em 1.5em 0 0;
     }
@@ -502,7 +512,13 @@ hr {
     .logo img {
         margin-top: -1em;
     }
+    .logo-container {
+        z-index: 0;
+    }
     .title {
+        font-family: 'Abel', sans-serif;
+        font-size: 32px;
+        margin-left: 4em;
 
     }
 
