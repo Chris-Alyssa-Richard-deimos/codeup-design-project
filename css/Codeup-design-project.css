@@ -63,43 +63,31 @@ ul {
 .red-circle {
     border: 10px solid white;
     background-color: #e6563b;
-    height: 5em;
-    width: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    height: 25vh;
     color: white;
 }
 .orange-circle {
     border: 10px solid white;
     background-color: #eb9d3a;
-    height: 5em;
-    width: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    height: 25vh;
     color: white;
 }
 
 .green-circle {
     border: 10px solid white;
     background-color: #7cb06c;
-    height: 5em;
-    width: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    height: 25vh;
     color: white;
 }
 
 .blue-circle {
     border: 10px solid white;
     background-color: #00aba9;
-    height: 5em;
-    width: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    height: 25vh;
     color: white;
 }
 
@@ -206,16 +194,16 @@ hr {
         border: 5px solid white;
         background-color: #e6563b;
         border-radius: 100%;
-        height: 100px;
-        width: 75px;
+        max-width: 100%;
+        height: 11vh;
         color: white;
     }
     .orange-circle-sm {
         border: 5px solid white;
         background-color: #eb9d3a;
         border-radius: 100%;
-        height: 100px;
-        width: 75px;
+        max-width: 100%;
+        height: 11vh;
         color: white;
         margin-left: 5px;
     }
@@ -224,8 +212,8 @@ hr {
         border: 5px solid white;
         background-color: #7cb06c;
         border-radius: 100%;
-        height: 100px;
-        width: 75px;
+        max-width: 100%;
+        height: 11vh;
         color: white;
         margin-left: 5px;
     }
@@ -234,8 +222,8 @@ hr {
         border: 5px solid white;
         background-color: #00aba9;
         border-radius: 100%;
-        height: 100px;
-        width: 120px;
+        max-width: 100%;
+        height: 11vh;
         color: white;
         margin-left: 5px;
     }
@@ -356,12 +344,16 @@ hr {
         border: 5px solid white;
         background-color: #e6563b;
         color: white;
+        max-width: 100%;
+        height: 11vh;
     }
     .orange-circle-sm {
         border: 5px solid white;
         background-color: #eb9d3a;
         color: white;
         margin-left: 2em;
+        max-width: 100%;
+        height: 11vh;
     }
 
     .green-circle-sm {
@@ -369,6 +361,8 @@ hr {
         background-color: #7cb06c;
         color: white;
         margin-left: 2em;
+        max-width: 100%;
+        height: 11vh;
     }
 
     .blue-circle-sm {
@@ -376,6 +370,8 @@ hr {
         background-color: #00aba9;
         color: white;
         margin-left: 2em;
+        max-width: 100%;
+        height: 11vh;
     }
     hr {
         width: 95%;
@@ -495,20 +491,27 @@ hr {
         margin-left: 20px;
     }
     .services {
-        margin: -4.5em 0 0 0;
+        margin: -6em 1.5em 0 0;
     }
 
     .work-1 {
-        margin: -4.5em 0 0 0;
+        margin: -6em 1.5em 0 0;
     }
 
     .blog {
-        margin: -4.5em 0 0 0;
+        margin: -6em 1.5em 0 0;
     }
 
     .contact {
-        margin: -4.5em 0 0 0;
+        margin: -6em 1.5em 0 0;
     }
+    .logo img {
+        margin-top: -1em;
+    }
+    .title {
+
+    }
+
 }
 @media (min-width: 993px) {
     body {
@@ -516,5 +519,38 @@ hr {
     }
     .container-fluid {
         width: 80%;
+    }
+    .red-circle-sm {
+        border: 5px solid white;
+        background-color: #e6563b;
+        color: white;
+        max-width: 100%;
+        height: 15vh;
+    }
+    .orange-circle-sm {
+        border: 5px solid white;
+        background-color: #eb9d3a;
+        color: white;
+        margin-left: 2em;
+        max-width: 100%;
+        height: 15vh;
+    }
+
+    .green-circle-sm {
+        border: 5px solid white;
+        background-color: #7cb06c;
+        color: white;
+        margin-left: 2em;
+        max-width: 100%;
+        height: 15vh;
+    }
+
+    .blue-circle-sm {
+        border: 5px solid white;
+        background-color: #00aba9;
+        color: white;
+        margin-left: 2em;
+        max-width: 100%;
+        height: 15vh;
     }
 }
