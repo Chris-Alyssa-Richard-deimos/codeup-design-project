@@ -64,14 +64,14 @@ ul {
     border: 10px solid white;
     background-color: #e6563b;
     max-width: 100%;
-    height: 25vh;
+    height: 20vh;
     color: white;
 }
 .orange-circle {
     border: 10px solid white;
     background-color: #eb9d3a;
     max-width: 100%;
-    height: 25vh;
+    height: 20vh;
     color: white;
 }
 
@@ -79,7 +79,7 @@ ul {
     border: 10px solid white;
     background-color: #7cb06c;
     max-width: 100%;
-    height: 25vh;
+    height: 20vh;
     color: white;
 }
 
@@ -87,7 +87,7 @@ ul {
     border: 10px solid white;
     background-color: #00aba9;
     max-width: 100%;
-    height: 25vh;
+    height: 20vh;
     color: white;
 }
 
@@ -525,7 +525,7 @@ hr {
         background-color: #e6563b;
         color: white;
         max-width: 100%;
-        height: 15vh;
+        height: 12vh;
     }
     .orange-circle-sm {
         border: 5px solid white;
@@ -533,7 +533,7 @@ hr {
         color: white;
         margin-left: 2em;
         max-width: 100%;
-        height: 15vh;
+        height: 12vh;
     }
 
     .green-circle-sm {
@@ -542,7 +542,7 @@ hr {
         color: white;
         margin-left: 2em;
         max-width: 100%;
-        height: 15vh;
+        height: 12vh;
     }
 
     .blue-circle-sm {
@@ -551,6 +551,8 @@ hr {
         color: white;
         margin-left: 2em;
         max-width: 100%;
-        height: 15vh;
+        height: 12vh;
     }
 }
+
+
