@@ -63,14 +63,14 @@ ul {
 .red-circle {
     border: 10px solid white;
     background-color: #e6563b;
-    max-width: 100%;
+    max-width: 170px;
     height: 20vh;
     color: white;
 }
 .orange-circle {
     border: 10px solid white;
     background-color: #eb9d3a;
-    max-width: 100%;
+    max-width: 170px;
     height: 20vh;
     color: white;
 }
@@ -78,7 +78,7 @@ ul {
 .green-circle {
     border: 10px solid white;
     background-color: #7cb06c;
-    max-width: 100%;
+    max-width: 170px;
     height: 20vh;
     color: white;
 }
@@ -86,7 +86,7 @@ ul {
 .blue-circle {
     border: 10px solid white;
     background-color: #00aba9;
-    max-width: 100%;
+    max-width: 170px;
     height: 20vh;
     color: white;
 }
@@ -113,11 +113,13 @@ img {
     border-radius: 5px;
     margin-bottom: 5px;
 }
-
+.feat-1 {
+    margin-left: -15px;
+}
 .icons1 {
     background-color: #e6563b;
     height: 18px;
-    width: 18px;
+    max-width: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +132,7 @@ img {
 .icons2 {
     background-color: #eb9d3a;
     height: 18px;
-    width: 18px;
+    max-width: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +144,7 @@ img {
 .icons3 {
     background-color: #7cb06c;
     height: 18px;
-    width: 18px;
+    max-width: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +156,7 @@ img {
 .icons4 {
     background-color: #00aba9;
     height: 18px;
-    width: 18px;
+    max-width: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,7 +196,7 @@ hr {
         border: 5px solid white;
         background-color: #e6563b;
         border-radius: 100%;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
         color: white;
     }
@@ -202,7 +204,7 @@ hr {
         border: 5px solid white;
         background-color: #eb9d3a;
         border-radius: 100%;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
         color: white;
         margin-left: 5px;
@@ -212,7 +214,7 @@ hr {
         border: 5px solid white;
         background-color: #7cb06c;
         border-radius: 100%;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
         color: white;
         margin-left: 5px;
@@ -222,7 +224,7 @@ hr {
         border: 5px solid white;
         background-color: #00aba9;
         border-radius: 100%;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
         color: white;
         margin-left: 5px;
@@ -248,8 +250,8 @@ hr {
     .icons1 {
         background-color: #e6563b;
         border-radius: 100%;
-        height: 1em;
-        width: 1em;
+        height: 18px;
+        max-width: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -264,7 +266,7 @@ hr {
         background-color: #eb9d3a;
         border-radius: 100%;
         height: 18px;
-        width: 18px;
+        max-width: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -278,7 +280,7 @@ hr {
         background-color: #7cb06c;
         border-radius: 100%;
         height: 18px;
-        width: 18px;
+        max-width: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -292,7 +294,7 @@ hr {
         background-color: #00aba9;
         border-radius: 100%;
         height: 18px;
-        width: 18px;
+        max-width: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -300,10 +302,6 @@ hr {
         margin-left: 5px;
         font-size: .6em;
         padding: 1em;
-    }
-    .man {
-        height: 133px;
-        width: 195px;
     }
     .services {
     }
@@ -344,7 +342,7 @@ hr {
         border: 5px solid white;
         background-color: #e6563b;
         color: white;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
     }
     .orange-circle-sm {
@@ -352,7 +350,7 @@ hr {
         background-color: #eb9d3a;
         color: white;
         margin-left: 2em;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
     }
 
@@ -361,7 +359,7 @@ hr {
         background-color: #7cb06c;
         color: white;
         margin-left: 2em;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
     }
 
@@ -370,7 +368,7 @@ hr {
         background-color: #00aba9;
         color: white;
         margin-left: 2em;
-        max-width: 100%;
+        max-width: 95px;
         height: 11vh;
     }
     hr {
@@ -395,7 +393,7 @@ hr {
         background-color: #e6563b;
         border-radius: 100%;
         height: 15px;
-        width: 15px;
+        max-width: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -410,7 +408,7 @@ hr {
         background-color: #eb9d3a;
         border-radius: 100%;
         height: 15px;
-        width: 15px;
+        max-width: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -424,7 +422,7 @@ hr {
         background-color: #7cb06c;
         border-radius: 100%;
         height: 15px;
-        width: 15px;
+        max-width: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -438,7 +436,7 @@ hr {
         background-color: #00aba9;
         border-radius: 100%;
         height: 15px;
-        width: 15px;
+        max-width: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -453,10 +451,6 @@ hr {
     }
     .last-txt {
         margin-left: auto;
-    }
-    .man {
-        height: 190px;
-        width: 281px;
     }
     .the-last{
         font-family: 'Anton', sans-serif;
@@ -524,7 +518,7 @@ hr {
         border: 5px solid white;
         background-color: #e6563b;
         color: white;
-        max-width: 100%;
+        max-width: 105px;
         height: 12vh;
     }
     .orange-circle-sm {
@@ -532,7 +526,7 @@ hr {
         background-color: #eb9d3a;
         color: white;
         margin-left: 2em;
-        max-width: 100%;
+        max-width: 105px;
         height: 12vh;
     }
 
@@ -541,7 +535,7 @@ hr {
         background-color: #7cb06c;
         color: white;
         margin-left: 2em;
-        max-width: 100%;
+        max-width: 105px;
         height: 12vh;
     }
 
@@ -550,7 +544,7 @@ hr {
         background-color: #00aba9;
         color: white;
         margin-left: 2em;
-        max-width: 100%;
+        max-width: 105px;
         height: 12vh;
     }
 }
